@@ -1,33 +1,76 @@
 html {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 body {
-  height: 95%;
-  width: 100%;
-  font-family: sans-serif;
+    height: 95%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 30%;
+    background-image: url('http://wallpapercave.com/wp/pZqkcJr.jpg');
+    align-items: center;
+    background-position: center;
+    padding: 5px;
+    object-fit: cover;
 }
 
 .main-container {
-  width: 75%;
-  margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
-  padding: 5px;
-  border-radius: 10px;
+    width: 30%;
+    margin: 10px auto;
+    background: rgba(255, 255, 255, 0.86);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center
 }
 
 .main-container h1 {
-  text-align: center;
+    text-align: center;
 }
 
 .text-box {
-  margin: 0px auto;
-  width: 40%;
+    margin: 0px auto;
+    width: 40%;
 }
 
-p{
-  text-align: center;
-  margin: 3px 0;
-  font-size: 17px;
+p {
+    text-align: left;
+    margin: 3px 0;
+    font-size: 17px;
+    border-bottom: 2px solid #c0c0c0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+
+.table {
+    border: 1px solid #c0c0c0;
+}
+
+.devMessage {
+    text-align: left;
+    font-weight: bold;
+    background-color: #ccc;
+    height: 50px;
+    align-content: center;
+}
+
+.date {
+    align-items: flex-end;
+    border-radius: 2px;
+    background-color: #0080ff;
+    font-size: .8em;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+}
+
+h2 {
+    font-family: cursive;
 }
